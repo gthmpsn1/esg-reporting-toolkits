@@ -1,0 +1,29 @@
+@import "./home.css";
+@import "./nav.css";
+@import "./how.css";
+@import "./learnAbout.css";
+@import "./reportCreator.css";
+@import "./whyESG.css";
+
+body {
+  height: 100vh;
+  border: 0px solid red;
+  margin: 0px 0 0 0;
+  padding: 0px;
+  font-family: 
+    'Gill Sans', 
+    'Gill Sans MT', 
+    'Calibri', 
+    'Trebuchet MS', 
+    sans-serif;
+}
+.app-container {
+  border: 0px solid rgb(68, 0, 255);
+  margin: 0px 0 0 0;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
