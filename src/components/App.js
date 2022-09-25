@@ -21,11 +21,11 @@ const App = (props) => {
         <div className="app-container">
         <Nav />
           <Routes> 
-            <Route exact path="/" element={<Home />} />
-            <Route path="/why-esg" element={<WhyESG />} />
-            <Route path="/how" element={<How />} />
-            <Route path="/learn-about-esg" element={<LearnAbout />} />
-            <Route path="/report-creator" element={<ReportCreator />} />
+            <Route exact path={"/"} element={<Home />} />
+            <Route path={"/why-esg"} element={<WhyESG />} />
+            <Route path={"/how"} element={<How />} />
+            <Route path={"/learn-about-esg"} element={<LearnAbout />} />
+            <Route path={"/report-creator"} element={<ReportCreator />} />
           </Routes>
         </div>
       </Fragment>

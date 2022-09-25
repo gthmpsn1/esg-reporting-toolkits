@@ -9,8 +9,8 @@ const Home = () => {
                 <h1 className="heading">ESG Reporting Toolkits for Municpal Governments</h1>
                 <p className="tagline">Where municipal debt issuers create robust, evidence based ESG reports from free, reliable data sources.</p>
                 <div className="btn-container">
-                    <Link to="/report-creator" className="button ready-btn">Create Report</Link>
-                    <Link to="why-esg" className="button more-btn">Learn More</Link>
+                    <Link to={"report-creator"} className="button ready-btn">Create Report</Link>
+                    <Link to={"why-esg"} className="button more-btn">Learn More</Link>
                 </div>
             </div>
         </div>
