@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/esg-reporting-toolkits/static/css/main.71854761.css",
-    "main.js": "/esg-reporting-toolkits/static/js/main.ca34eb06.js",
+    "main.css": "/esg-reporting-toolkits/static/css/main.24f13467.css",
+    "main.js": "/esg-reporting-toolkits/static/js/main.0fd8c176.js",
     "static/media/background2.jpeg": "/esg-reporting-toolkits/static/media/background2.79e033133d0f8f6c816b.jpeg",
     "static/media/esg-logo-header.png": "/esg-reporting-toolkits/static/media/esg-logo-header.5e6bc39acdc831474dff.png",
     "index.html": "/esg-reporting-toolkits/index.html",
-    "main.71854761.css.map": "/esg-reporting-toolkits/static/css/main.71854761.css.map",
-    "main.ca34eb06.js.map": "/esg-reporting-toolkits/static/js/main.ca34eb06.js.map"
+    "main.24f13467.css.map": "/esg-reporting-toolkits/static/css/main.24f13467.css.map",
+    "main.0fd8c176.js.map": "/esg-reporting-toolkits/static/js/main.0fd8c176.js.map"
   },
   "entrypoints": [
-    "static/css/main.71854761.css",
-    "static/js/main.ca34eb06.js"
+    "static/css/main.24f13467.css",
+    "static/js/main.0fd8c176.js"
   ]
 }
