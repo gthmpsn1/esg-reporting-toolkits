@@ -1,61 +1,65 @@
-.home-container {
-    border-top: 0px solid rgb(0, 0, 0);
-    padding: 20px 0 0 0;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 143px 0 0 0;
+.home-container,
+.home-container div,
+.home-container h1,
+.home-container p {
+    border: 0px solid rgb(239, 29, 183);
 }
-.home-image {
-    width: 100vw;
+.home-container {
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    margin: 155px 0 0 0;
+}
+.home-container .home-image {
     height: 450px;
+    width: 65vw;
     background-image: url("../assets/background2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
 }
-.contents {
-    border: 0px solid rgb(239, 29, 183);
-    color: rgb(0, 0, 0);
-    text-align: center;
+.home-container .contents {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 166, 100);
+    text-align: left;
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    padding: 0 10vw;
+    width: 35vw;
+    margin: 0 10px 0 0;
+    padding: 15px;
+    justify-content: flex-end;
 }
-.heading {
-    border: 0px solid rgb(239, 29, 29);
+.home-container .heading {
     margin: 10px 0 0 0;
     padding: 0;
+    font-size: 2.5em;
 }
-.tagline {
-    border: 0px solid rgb(239, 29, 29);
-    margin: 10px 0 10px 0;
+.home-container .tagline {
+    margin: 10px 0 25px 0;
     padding: 0;
+    font-size: 1.25em;
 }
-.btn-container {
-    border: 0px solid rgb(239, 29, 29);
-    margin-bottom: 0px;
-    padding: 0;
+.home-container .btn-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    font-size: 0.9em;
+    margin-bottom: 30px;
 }
-.button {
+.home-container .button {
     border: 2px solid rgb(173, 173, 173);
     border-radius: 3px;
-    margin: 0px 10px 0px 0px;
-    padding: 5px 10px 5px 10px;
     text-decoration: none;
     color: rgb(33, 33, 33);
     background-color: white;
     font-weight: 700;
-    width: 250px;
+    width: 50%;
+    margin: 0 10px 0 10px;
 }
-.button:hover {
+.home-container .button:nth-child(1) {
+    margin-left: 0px;
+}
+.home-container .button:hover {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 3px;
     text-decoration: none;

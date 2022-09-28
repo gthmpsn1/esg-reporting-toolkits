@@ -1,0 +1,13 @@
+.footer-container {
+    border: 0px solid red;
+    width: 100vw;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 0.8em;
+}
+.footer-title {
+    font-size: 1.2em;
+}
+.footer-container a {
+    color: rgb(0, 0, 0);
+}

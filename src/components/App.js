@@ -9,7 +9,7 @@ import WhyESG from "./WhyESG";
 import How from "./How";
 import LearnAbout from "./LearnAbout";
 import ReportCreator from "./ReportCreator";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "./Footer";
 
 const App = (props) => {
   useEffect(() => {
@@ -28,6 +28,7 @@ const App = (props) => {
             <Route path={"/report-creator"} element={<ReportCreator />} />
           </Routes>
         </div>
+        <Footer />
       </Fragment>
   )
 };

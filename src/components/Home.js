@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <div className="home-container">
-            <div className="home-image"></div>
             <div className="contents">
                 <h1 className="heading">ESG Reporting Toolkits for Municpal Governments</h1>
                 <p className="tagline">Where municipal debt issuers create robust, evidence based ESG reports from free, reliable data sources.</p>
@@ -13,6 +12,7 @@ const Home = () => {
                     <Link to={"why-esg"} className="button more-btn">Learn More</Link>
                 </div>
             </div>
+            <div className="home-image"></div>
         </div>
     )
 }

@@ -4,9 +4,9 @@
 @import "./learnAbout.css";
 @import "./reportCreator.css";
 @import "./whyESG.css";
+@import "./footer.css";
 
 body {
-  height: 100vh;
   border: 0px solid red;
   margin: 0px 0 0 0;
   padding: 0px;
@@ -19,11 +19,38 @@ body {
 }
 .app-container {
   border: 0px solid rgb(68, 0, 255);
-  margin: 0px 0 0 0;
-  padding: 0px;
-  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px ;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.button {
+  border: 2px solid rgb(173, 173, 173);
+  border-radius: 3px;
+  text-decoration: none;
+  color: rgb(33, 33, 33);
+  background-color: white;
+  font-weight: 700;
+  width: 50%;
+  margin: 0 10px 0 10px;
+  padding: 3px 0 3px 0;
+}
+.button:nth-child(1) {
+  margin-left: 0px;
+}
+.button:hover {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  background-color: rgb(220, 220, 220);
 }
