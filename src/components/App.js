@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import LoadingBar from "react-redux-loading-bar"
 import {Routes, Route} from "react-router-dom";
 import Nav from "./Nav";
 import Home from "./Home";
@@ -11,8 +10,7 @@ import Footer from "./Footer";
 
 const App = () => {
   return (
-      <Fragment>
-        <LoadingBar /> 
+      <Fragment> 
         <div className="app-container">
         <Nav />
           <Routes> 

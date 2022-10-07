@@ -11,8 +11,8 @@ const root = ReactDOMClient.createRoot(
 
 
 root.render(
-        <Router basename={process.env.PUBLIC_URL}>
-            <ScrollToTop />
-            <App />
-        </Router>
+    <Router basename={process.env.PUBLIC_URL}>
+        <ScrollToTop />
+        <App />
+    </Router>
 );
