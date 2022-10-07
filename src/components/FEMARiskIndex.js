@@ -2,11 +2,7 @@ import Collapsible from 'react-collapsible';
 
 const FEMARiskIndex = () => {
     return (
-        <Collapsible 
-            classParentString='test-parent' 
-            triggerClassName='test-trigger'
-            trigger={"FEMA National Risk Index"}
-        >
+        <div>
             <table>
                 <tr><th colSpan={2}>Data Source Snapshot: FEMA National Risk Index</th></tr>
                 <tr>
@@ -70,7 +66,7 @@ const FEMARiskIndex = () => {
                     <p>The image below displays the home page of the FEMA National Risk Index site. The colors on the map correlate with the displayed legend. To start using the tool, select “County View” or “Census Tract View”, depending on which type of geographic area you are working with.</p>
                 </li>
             </ul>
-        </Collapsible> 
+        </div> 
     )
 }
 

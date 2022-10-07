@@ -10,7 +10,7 @@
 .learn-about-container .box-1,
 .learn-about-container .box-2,
 .learn-about-container .box-3 {
-    border: 1px solid rgb(0, 255, 8);
+    border: 0px solid rgb(0, 255, 8);
     margin: 0;
 }
 .learn-about-container {
@@ -65,25 +65,31 @@
 .learn-about-container .box-3 {
     margin: 30px 30px 30px 30px;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.learn-about-container .box-3 .section-headers {
-    display: flex;
     flex-direction: row;
-    margin-bottom: 15px;
-}
-.learn-about-container .box-3 .section-headers h2 {
     width: 100%;
-    text-align: center;
-    border: 0px;
-    border-right: 2px solid gray;
-}
-.learn-about-container .box-3 .section-headers h2:nth-child(3) {
-    width: 100%;
-    text-align: center;
-    border-right: 0px solid gray;
 }
 .learn-about-container .react-tabs {
-    border: 3px solid red;
+    width: 100%;
+}
+.learn-about-container .react-tabs__tab-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 0 2px 0;
+    margin: 0 0 15px 0;
+}
+.learn-about-container .react-tabs__tab-list li {
+    width: 100%;
+    text-align: center;
+    padding: 5px ;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid lightgray;
+}
+.learn-about-container .react-tabs__tab--selected {
+    border-radius: 10px 10px 0 0;
+    border: 1px solid lightgray;
+    background-color: rgb(243, 243, 243);
+}
+.learn-about-container .react-tabs__tab-panel {
+    margin: 0 15px 0 15px;
 }
