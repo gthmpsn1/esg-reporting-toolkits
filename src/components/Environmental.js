@@ -3,7 +3,7 @@ import FEMARiskIndex from "./FEMARiskIndex";
 
 const Environmental = () => {
     return (
-        <div className='dropdown-container-1'>
+        <div className="environmental-data">
             <h4>Demand for environmental risk reporting is soaring</h4>
             <p>Investors and regulators are increasingly focused on the materiality of environmental risks, including the impact of climate change. We recommend that you are just getting started with ESG reporting that you start with environmental risk. This approach is also recommended by the Government Finance Officers Association. It’s ok to create a disclosure report focused solely on “E” risks as a starting point if doing a full ESG report is too much to do all at once. The most important thing is to get started, and we believe “E’ is a good place to start.</p>
                 
@@ -13,11 +13,11 @@ const Environmental = () => {
             <h4>Explore Environmental Data Sources</h4>
             <Tabs defaultIndex={0}>
                 <TabList>
-                    <Tab>FEMARiskIndex</Tab>
+                    <Tab>FEMA National Risk Index</Tab>
                     <Tab>EPA EJScreen</Tab>
                     <Tab>Surging Seas Risk-Finder Tool</Tab>
                     <Tab>Climate Check</Tab>
-                    <Tab>Baseline Resilience Indicators for Communities</Tab>
+                    <Tab>Baseline Resilience Indicators <br/>for Communities</Tab>
                     <Tab>Drinking Water Violations</Tab>
                     <Tab>Air Quality Hazards</Tab>
                 </TabList>

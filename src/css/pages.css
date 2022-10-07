@@ -1,0 +1,61 @@
+.section-container,
+.section-container .body-contents,
+.header-contents,
+.header-contents .box-1,
+.header-contents .box-1 h1,
+.header-contents .box-1 h4,
+.header-contents .box-2,
+.body-btn-container {
+    border: 0px solid red;
+}
+.section-container {
+    width: 950px;
+    margin: 155px 0 0 0;
+    border: 0px solid red;
+}
+.header-contents {
+    display: flex;
+    flex-direction: row;
+}
+.header-contents .box-1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 166, 100);
+    width: 35vw;
+    height: 275px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 15px 0px 15px;
+}
+.header-contents .box-1 h1 {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.header-contents .box-1 h4 {
+    margin-top: 0px;
+}
+.header-contents .box-2 {
+    background-image: url("../assets/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 65vw;
+    height: 275px;
+}
+.body-contents {
+    margin: 15px 15px 30px 15px;
+}
+.body-contents span {
+    font-weight: 700;
+}
+.body-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.body-btn-container .button {
+    width: 125px;
+    text-align: center;
+}

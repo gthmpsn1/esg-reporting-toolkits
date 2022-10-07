@@ -5,19 +5,16 @@ import Governance from "./Governance";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 const LearnAbout = () => {
-    const showInfo = (e) => {
-        console.log(e.target.value)
-    }
     return (
-        <div className="learn-about-container">
+        <div className="section-container">
             <div className="header-contents">
                 <div className="box-1">
                     <h1>Learn About ESG Reporting</h1>
-                    <p>Use this ESG Reporting Toolkit to learn about Environmental, Social and Governance risks, data sources,  and reporting.</p>
+                    <h4>Use this ESG Reporting Toolkit to learn about Environmental, Social and Governance risks, data sources,  and reporting.</h4>
                 </div>
-                <div className="box-2"></div>
+                <div className="box-2" style={{backgroundImage: `url("https://sphera.com/wp-content/uploads/2021/04/What-Is-ESG-Reporting-and-Why-Is-It-Important.jpg")`}}></div>
             </div>
-            <div className="box-3">
+            <div className="body-contents">
                 <Tabs defaultIndex={0}>
                     <TabList>
                         <Tab>Environmental</Tab>
@@ -29,7 +26,7 @@ const LearnAbout = () => {
                     <TabPanel><Governance /></TabPanel>
                 </Tabs>
             </div>
-            <div className="btn-container">
+            <div className="body-btn-container">
                 <Link to="/report-creator" className="button ready-btn">Create Report</Link>
                 <Link to="/report-creator" className="button more-btn">Learn More</Link>
             </div>

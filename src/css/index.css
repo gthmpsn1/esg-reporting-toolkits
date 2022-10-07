@@ -1,9 +1,8 @@
 @import "./home.css";
 @import "./nav.css";
-@import "./how.css";
 @import "./learnAbout.css";
 @import "./reportCreator.css";
-@import "./whyESG.css";
+@import "./pages.css";
 @import "./footer.css";
 
 body {
