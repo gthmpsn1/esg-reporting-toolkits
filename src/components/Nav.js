@@ -1,4 +1,3 @@
-import { connect } from "react-redux";
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
@@ -16,4 +15,4 @@ const Nav = () => {
     )
 }
 
-export default connect()(Nav);
+export default Nav;

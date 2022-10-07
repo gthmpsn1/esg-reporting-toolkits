@@ -1,6 +1,4 @@
-import { useEffect, Fragment } from "react";
-import { connect } from "react-redux";
-import {handleInitialData} from "../actions/shared";
+import { Fragment } from "react";
 import LoadingBar from "react-redux-loading-bar"
 import {Routes, Route} from "react-router-dom";
 import Nav from "./Nav";
@@ -11,10 +9,7 @@ import LearnAbout from "./LearnAbout";
 import ReportCreator from "./ReportCreator";
 import Footer from "./Footer";
 
-const App = (props) => {
-  useEffect(() => {
-    props.dispatch(handleInitialData());
-  }, []);
+const App = () => {
   return (
       <Fragment>
         <LoadingBar /> 
@@ -33,4 +28,4 @@ const App = (props) => {
   )
 };
   
-export default connect()(App);
+export default App;
