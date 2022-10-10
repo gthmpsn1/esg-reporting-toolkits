@@ -11,7 +11,7 @@ const ReportCreator = () => {
                 <p>Report Creator is a free questionnaire that guides municipalities through the process of creating of a robust, evidence based ESG disclosure report. Once completed, the municipality can upload the report to <a target="_blank" href="https://emma.msrb.org/" title="EMMA">EMMA</a>, its website, or other location. Posting the report in a public place is completely voluntary.</p>
             </div>
             <div className="body-btn-container">
-                <a target="_blank" href="https://emma.msrb.org/" title="EMMA" className="button ready-btn">Create Report</a>
+                <a target="_blank" href="https://www.cognitoforms.com/LizSweeney1/ESGReportCreator" title="EMMA" className="button ready-btn">Create Report</a>
             </div>
         </div>
     )
